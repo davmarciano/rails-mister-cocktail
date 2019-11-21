@@ -12,3 +12,45 @@
 @import "components/index";
 @import "pages/index";
 
+.card-category {
+  background-size: contain;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+body{
+  background-color: #F8F8F8;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  padding: 50px;
+}
+
+.card img{
+  height: 50%;
+  width: 100%;
+}
+
+.card{
+  height: 400px;
+}
+
+.card-text{
+  font-size: 12px;
+}
+
+.btn{
+  position: relative;
+  margin: 1px auto;
+}
